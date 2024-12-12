@@ -1,10 +1,12 @@
 # Bookspot
 
-This is the initial setup of the Bookspot application, a React app with TypeScript.
+This branch implements the UI for the Login Page of the Bookspot web application. Currently, only the frontend UI for logging in is implemented.
+
 
 # Description
 
-This is the initial setup of the Bookspot application.
+- This app is a **Bookspot** web application.
+- The **LoginPage** UI is fully implemented allowing users to input their credentials and log into the app (authentication functionality to be added in future branches).
 
 # Table of Contents
 
