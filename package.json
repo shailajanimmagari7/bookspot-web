@@ -7,6 +7,7 @@
     "cra-template-typescript": "1.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-hook-form": "^7.54.0",
     "react-router-dom": "^7.0.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
@@ -36,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@hookform/devtools": "^4.3.1",
     "@testing-library/jest-dom": "^6.6.3"
   }
 }
