@@ -1,6 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import styles from "./LoginPage.module.css";
+import { Link } from "react-router-dom";
 
 type FormValues = {
   username: string;
@@ -49,6 +50,7 @@ export const LoginPage = () => {
           <button type="submit" className={styles.button}>
             Submit
           </button>
+          <h2>No account? <Link to="/">Register</Link></h2>
         </form>
       </div>
     </div>
