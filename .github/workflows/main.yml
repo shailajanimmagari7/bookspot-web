@@ -1,0 +1,16 @@
+name: Bookspot-web
+on:
+  push:
+    branches:
+      - main
+      - feature-login-page-frontend
+jobs:
+  BookSpotApp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies with the command
+        run: npm install
+      - name: Run tests with the command
+        run: npm test
