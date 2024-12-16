@@ -1,0 +1,91 @@
+.registerpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://images.careerindia.com/img/2024/11/mj_image_web_1730421961137-600x338.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    background-color: rgba(255, 250, 205, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+  }
+  
+  h1 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  h2 {
+    color:blue;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  
+  .labelStyles {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .inputContainer {
+    margin-bottom: 25px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #b0c4de;
+    background-color: #fffacd;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    outline: none;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 12px;
+    background-color: #87cefa;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #4a90e2;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #ff4c4c;
+    margin-top: 5px;
+  }
+  
+  .text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
