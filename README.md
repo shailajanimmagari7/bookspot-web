@@ -1,12 +1,11 @@
 # Bookspot
 
-This branch implements the UI for the Login Page of the Bookspot web application. Currently, only the frontend UI for logging in is implemented.
-
+This branch implements the UI for the Register page of the Bookspot web application. Currently, applied routes for navigation between Login page and Register page. 
 
 # Description
 
 - This app is a **Bookspot** web application.
-- The **LoginPage** UI is fully implemented allowing users to input their credentials and log into the app (authentication functionality to be added in future branches).
+- The **Register Page** UI is fully implemented allowing users to input their credentials and create account into the app (authentication functionality to be added in future branches).
 
 # Table of Contents
 
@@ -21,6 +20,7 @@ This branch implements the UI for the Login Page of the Bookspot web application
 - Typescript
 - Jest
 - React Testing Library
+- React Router Dom 
 
 # Requirements
 
@@ -62,6 +62,10 @@ Before you start, ensure that you have the following dependencies installed:
      npm install --save-dev typescript @types/react
      @types/react-dom
     ```
+7. React Router Dom: For navigation between the pages. 
+    ```bash
+     npm i react-router-dom
+    ``` 
 
 # Installation
 
